@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Miles Rausch -- developer -- @awayken
+  Holli Rausch -- designer -- @holli_joi
+  Ian Rausch -- child
+  Ainsley Rausch -- child
+
+# THANKS
+
+  Disney•Pixar Inside Out
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3
+  Web Starter Kit
