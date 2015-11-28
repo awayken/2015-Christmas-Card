@@ -28,6 +28,8 @@ var browserSync = require('browser-sync');
 var pagespeed = require('psi');
 var reload = browserSync.reload;
 
+var insideout = require('./data/insideout.json');
+
 var AUTOPREFIXER_BROWSERS = [
   'ie >= 10',
   'ie_mob >= 10',
@@ -106,7 +108,9 @@ gulp.task('styles', function () {
 // Compile the EJS templates
 gulp.task('ejs', function () {
   return gulp.src('app/*.ejs')
-    .pipe($.ejs())
+    .pipe($.ejs({
+      insideout: insideout
+    }))
     .pipe($.useref())
     .pipe(gulp.dest('.tmp'))
     .pipe($.size({title: 'ejs'}));
@@ -117,7 +121,9 @@ gulp.task('html', function () {
   var assets = $.useref.assets({searchPath: '{.tmp,app}'});
 
   return gulp.src('app/**/*.ejs')
-    .pipe($.ejs())
+    .pipe($.ejs({
+      insideout: insideout
+    }))
     .pipe(assets)
     // Concatenate and minify JavaScript
     .pipe($.if('*.js', $.uglify({preserveComments: 'some'})))
