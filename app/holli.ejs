@@ -1,9 +1,15 @@
 <%- include('_layout/header') -%>
 
-<ul>
-  <% insideout.forEach(function(emotion) { %>
-    <li><%= emotion.name %>: <%= emotion.emotion %></li>
-  <% }); %>
-</ul>
+<%
+    emotion = insideout.reduce(function( emotion ) {
+        if ( emotion.name === 'Holli' ) {
+            return emotion;
+        }
+    });
+%>
+
+<h1>Meet <%= emotion.emotion %></h1>
+
+<p><%= emotion.introduction %></p>
 
 <%- include('_layout/footer') -%>
