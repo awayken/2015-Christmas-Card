@@ -64,7 +64,8 @@ gulp.task('images', function () {
 gulp.task('copy', function () {
   return gulp.src([
     'app/*',
-    '!app/*.html',
+    '!app/_layout/**',
+    '!app/*.ejs',
     'node_modules/apache-server-configs/dist/.htaccess'
   ], {
     dot: true
@@ -102,11 +103,21 @@ gulp.task('styles', function () {
     .pipe($.size({title: 'styles'}));
 });
 
+// Compile the EJS templates
+gulp.task('ejs', function () {
+  return gulp.src('app/*.ejs')
+    .pipe($.ejs())
+    .pipe($.useref())
+    .pipe(gulp.dest('.tmp'))
+    .pipe($.size({title: 'ejs'}));
+});
+
 // Scan your HTML for assets & optimize them
 gulp.task('html', function () {
   var assets = $.useref.assets({searchPath: '{.tmp,app}'});
 
-  return gulp.src('app/**/*.html')
+  return gulp.src('app/**/*.ejs')
+    .pipe($.ejs())
     .pipe(assets)
     // Concatenate and minify JavaScript
     .pipe($.if('*.js', $.uglify({preserveComments: 'some'})))
@@ -141,7 +152,7 @@ gulp.task('html', function () {
 gulp.task('clean', del.bind(null, ['.tmp', 'dist/*', '!dist/.git'], {dot: true}));
 
 // Watch files for changes & reload
-gulp.task('serve', ['styles'], function () {
+gulp.task('serve', ['styles', 'ejs'], function () {
   browserSync({
     notify: false,
     // Customize the BrowserSync console logging prefix
@@ -153,7 +164,7 @@ gulp.task('serve', ['styles'], function () {
     server: ['.tmp', 'app']
   });
 
-  gulp.watch(['app/**/*.html'], reload);
+  gulp.watch(['app/**/*.ejs'], [ 'ejs', reload ]);
   gulp.watch(['app/styles/**/*.{scss,css}'], ['styles', reload]);
   gulp.watch(['app/scripts/**/*.js'], ['jshint']);
   gulp.watch(['app/images/**/*'], reload);
