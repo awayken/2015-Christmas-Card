@@ -12,4 +12,22 @@
 
 <p><%= emotion.introduction %></p>
 
+<nav>
+    <ul class="marble">
+        <% emotion.memories.forEach(function( memory, index ) { %>
+            <li class="marble--item">
+                <a href="#memory<%= index %>"><%= memory.name %></a>
+            </li>
+        <% }); %>
+    </ul>
+</nav>
+
+<ul class="memory">
+    <% emotion.memories.forEach(function( memory, index ) { %>
+        <li class="memory--item" id="#memory<%= index %>">
+            <%- memory.text %>
+        </li>
+    <% }); %>
+</ul>
+
 <%- include('_layout/footer') -%>
