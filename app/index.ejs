@@ -1,13 +1,13 @@
 <%- include('_layout/header') -%>
 
 <ul>
-<% insideout.forEach(function(emotion) { %>
-    <li>
-        <a href="<%= emotion.name.toLowerCase() %>.htm">
-            <%= emotion.name %> is <%= emotion.emotion %>
-        </a>
-    </li>
-<% }); %>
+    <% insideout.forEach(function(emotion) { %>
+        <li>
+            <a href="<%= emotion.name.toLowerCase() %>.html">
+                <%= emotion.name %> is <%= emotion.emotion %>
+            </a>
+        </li>
+    <% }); %>
 </ul>
 
 <%- include('_layout/footer') -%>
