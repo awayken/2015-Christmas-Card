@@ -1,0 +1,7 @@
+<ul class="memory">
+    <% memories.forEach(function( memory, index ) { %>
+        <li class="memory--item" id="#memory<%= index %>">
+            <%- memory.text %>
+        </li>
+    <% }); %>
+</ul>

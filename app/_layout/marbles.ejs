@@ -1,0 +1,9 @@
+<nav>
+    <ul class="marble">
+        <% marbles.forEach(function( marble, index ) { %>
+            <li class="marble--item">
+                <a href="#memory<%= index %>"><%= marble.name %></a>
+            </li>
+        <% }); %>
+    </ul>
+</nav>
