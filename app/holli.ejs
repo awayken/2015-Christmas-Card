@@ -12,7 +12,7 @@
 
 <p><%= emotion.introduction %></p>
 
-<%- include('_layout/marbles', { marbles: emotion.memories }) -%>
+<%- include('_layout/marbles', { marbles: emotion.memories, emotion: emotion.emotion }) -%>
 
 <%- include('_layout/memories', { memories: emotion.memories }) -%>
 
