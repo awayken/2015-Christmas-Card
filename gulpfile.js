@@ -66,8 +66,8 @@ gulp.task('images', function () {
 gulp.task('copy', function () {
   return gulp.src([
     'app/*',
-    '!app/_layout/**',
-    '!app/*.ejs',
+    '!app/_layout',
+    '!app/**/*.ejs',
     'node_modules/apache-server-configs/dist/.htaccess'
   ], {
     dot: true
@@ -120,7 +120,7 @@ gulp.task('ejs', function () {
 gulp.task('html', function () {
   var assets = $.useref.assets({searchPath: '{.tmp,app}'});
 
-  return gulp.src('app/**/*.ejs')
+  return gulp.src('app/*.ejs')
     .pipe($.ejs({
       insideout: insideout
     }))
