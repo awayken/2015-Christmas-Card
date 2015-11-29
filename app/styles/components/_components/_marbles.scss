@@ -31,7 +31,7 @@
 }
 
 .marble + .marble {
-    margin-left: -.15em;
+    margin-left: -.2em;
 }
 
 .marble--link {
@@ -45,9 +45,17 @@
     width: 3em;
 }
 
+.marble--link:hover {
+    background-image: radial-gradient(lighten($color-background-light, 10%), lighten($color-background, 10%));
+}
+
 .marble--joy {
     background-image: radial-gradient($color-joy-bright, $color-joy-light, $color-joy-dark);
     border-color: $color-joy-bright;
+}
+
+.marble--joy:hover {
+    background-image: radial-gradient(lighten($color-joy-bright, 10%), lighten($color-joy-dark, 10%));
 }
 
 .marble--anger {
@@ -55,12 +63,24 @@
     border-color: $color-anger-bright;
 }
 
+.marble--anger:hover {
+    background-image: radial-gradient(lighten($color-anger-bright, 10%), lighten($color-anger-dark, 10%));
+}
+
 .marble--disgust {
     background-image: radial-gradient($color-disgust-bright, $color-disgust-light, $color-disgust-dark);
     border-color: $color-disgust-bright;
 }
 
+.marble--disgust:hover {
+    background-image: radial-gradient(lighten($color-disgust-bright, 10%), lighten($color-disgust-dark, 10%));
+}
+
 .marble--fear {
     background-image: radial-gradient($color-fear-bright, $color-fear-light, $color-fear-dark);
     border-color: $color-fear-bright;
+}
+
+.marble--fear:hover {
+    background-image: radial-gradient(lighten($color-fear-bright, 10%), lighten($color-fear-dark, 10%));
 }
