@@ -17,8 +17,10 @@ $colorGrayLighter: rgba($colorBlack, .12);
 
 $color-background: #010D47;
 $color-background-light: #3179EF;
-$color-text: #9ec0f9;
 $color-accent: #fce80e;
+
+$color-text: #9ec0f9;
+$colorText: $color-text;
 
 $color-rail-top: #CD5E40;
 $color-rail-bottom: #C15028;
