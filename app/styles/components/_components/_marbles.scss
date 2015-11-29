@@ -1,0 +1,66 @@
+/**
+*
+* Marbles
+*
+**/
+
+.marbles {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: .5em 1em;
+    position: relative;
+}
+
+.marbles::after {
+    background-image: linear-gradient($color-rail-top, $color-rail-bottom);
+    border-bottom: 3px solid $color-rail-lip;
+    border-radius: .25em;
+    bottom: 0;
+    box-shadow: 0 .25em .35em rgba(0, 0, 0, .75);
+    content: "";
+    display: block;
+    height: 1em;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.marble {
+    display: inline-block;
+}
+
+.marble + .marble {
+    margin-left: -.15em;
+}
+
+.marble--link {
+    background-image: radial-gradient($color-background-light, $color-background);
+    border: 2px solid $color-background-light;
+    border-radius: 100%;
+    box-shadow: 0 0 .5em rgba(255, 255, 255, .75);
+    display: inline-block;
+    height: 3em;
+    text-indent: -9999em;
+    width: 3em;
+}
+
+.marble--joy {
+    background-image: radial-gradient($color-joy-bright, $color-joy-light, $color-joy-dark);
+    border-color: $color-joy-bright;
+}
+
+.marble--anger {
+    background-image: radial-gradient($color-anger-bright, $color-anger-light, $color-anger-dark);
+    border-color: $color-anger-bright;
+}
+
+.marble--disgust {
+    background-image: radial-gradient($color-disgust-bright, $color-disgust-light, $color-disgust-dark);
+    border-color: $color-disgust-bright;
+}
+
+.marble--fear {
+    background-image: radial-gradient($color-fear-bright, $color-fear-light, $color-fear-dark);
+    border-color: $color-fear-bright;
+}

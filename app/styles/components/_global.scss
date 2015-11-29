@@ -18,6 +18,10 @@ button {
   font-smoothing: antialiased;
 }
 
+html {
+    background: $color-background;
+}
+
 body {
   font-family: $fontDefault;
   font-size: $fontBase;
