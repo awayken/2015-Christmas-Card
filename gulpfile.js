@@ -189,6 +189,12 @@ gulp.task('serve:dist', ['default'], function () {
   });
 });
 
+// Clear the Gulp caches
+gulp.task('clearcache', function( done ) {
+    $.cache.clearAll();
+    done();
+});
+
 // Build production files, the default task
 gulp.task('default', ['clean'], function (cb) {
   runSequence('styles', ['jshint', 'html', 'images', 'fonts', 'copy'], cb);
