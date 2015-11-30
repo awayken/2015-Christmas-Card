@@ -41,12 +41,26 @@
     box-shadow: 0 0 .5em rgba(255, 255, 255, .75);
     display: inline-block;
     height: 3em;
+    position: relative;
     text-indent: -9999em;
     width: 3em;
 }
 
-.marble--link:hover {
+.marble--link::after {
     background-image: radial-gradient(lighten($color-background-light, 10%), lighten($color-background, 10%));
+    border-radius: 100%;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    transition: opacity 200ms ease-out;
+    top: 0;
+}
+
+.marble--link:hover::after {
+    opacity: 1;
 }
 
 .marble--joy {
@@ -54,8 +68,8 @@
     border-color: $color-joy-bright;
 }
 
-.marble--joy:hover {
-    background-image: radial-gradient(lighten($color-joy-bright, 10%), lighten($color-joy-dark, 10%));
+.marble--joy::after {
+    background-image: radial-gradient($color-joy-bright, $color-joy-light);
 }
 
 .marble--anger {
@@ -63,8 +77,8 @@
     border-color: $color-anger-bright;
 }
 
-.marble--anger:hover {
-    background-image: radial-gradient(lighten($color-anger-bright, 10%), lighten($color-anger-dark, 10%));
+.marble--anger::after {
+    background-image: radial-gradient($color-anger-bright, $color-anger-light);
 }
 
 .marble--disgust {
@@ -72,8 +86,8 @@
     border-color: $color-disgust-bright;
 }
 
-.marble--disgust:hover {
-    background-image: radial-gradient(lighten($color-disgust-bright, 10%), lighten($color-disgust-dark, 10%));
+.marble--disgust::after {
+    background-image: radial-gradient($color-disgust-bright, $color-disgust-light);
 }
 
 .marble--fear {
@@ -81,6 +95,6 @@
     border-color: $color-fear-bright;
 }
 
-.marble--fear:hover {
-    background-image: radial-gradient(lighten($color-fear-bright, 10%), lighten($color-fear-dark, 10%));
+.marble--fear::after {
+    background-image: radial-gradient($color-fear-bright, $color-fear-light);
 }
