@@ -2,6 +2,7 @@
     {
         "name": "Holli",
         "emotion": "Joy",
+        "image": "images/joy.jpg",
         "introduction": "This is an introduction paragraph.",
         "memories": [
             {
@@ -20,14 +21,17 @@
     },
     {
         "name": "Ian",
-        "emotion": "Anger"
+        "emotion": "Anger",
+        "image": "images/anger.jpg"
     },
     {
         "name": "Ainsley",
-        "emotion": "Disgust"
+        "emotion": "Disgust",
+        "image": "images/disgust.jpg"
     },
     {
-        "name": "Fear",
-        "emotion": "Miles"
+        "name": "Miles",
+        "emotion": "Fear",
+        "image": "images/fear.jpg"
     }
 ]
