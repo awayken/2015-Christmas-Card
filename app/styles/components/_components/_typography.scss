@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, p {
   margin: 0;
 }
 
+li > p {
+  padding-top: 0;
+}
+
 // Definitions
 .small,
 small {
@@ -32,21 +36,16 @@ h4 {
 h3 {
   @include type--large;
 }
+
 .xlarge,
 h2 {
   @include type--xlarge;
 }
 
-.xxlarge,
-h1 {
+.xxlarge {
   @include type--xxlarge;
 }
 
 .huge {
   @include type--huge;
-}
-
-
-li > p {
-  padding-top: 0;
 }
