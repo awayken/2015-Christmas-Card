@@ -1,0 +1,103 @@
+/**
+*
+* Profile
+*
+**/
+
+.profile {
+    @extend .clear;
+
+    background: lighten($color-background, 10%);
+    margin: 0 .25em 1em;
+    padding: 1em .75em;
+    text-align: center;
+}
+
+.profile--list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile--item +.profile--item {
+    margin-top: .5em;
+}
+
+.profile--link {
+    display: block;
+    overflow: hidden;
+    margin: 0 .25em;
+    text-decoration: none;
+}
+
+.profile--link:hover .profile--emotion,
+.profile--link:active .profile--emotion,
+.profile--link:focus .profile--emotion {
+    background: rgba(255, 255, 255, 1);
+}
+
+.profile--name,
+.profile--emotion {
+    display: block;
+    font-size: 2em;
+    line-height: 1;
+    margin: 0 auto;
+    position: relative;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.profile--name {
+    margin-bottom: -.2em;
+}
+
+.profile--emotion {
+    background: rgba(255, 255, 255, .7);
+    font-size: 2.25em;
+    margin-top: -1em;
+    transition: all 300ms ease-out;
+    z-index: 1;
+}
+
+.joy .profile--name,
+.joy .profile--emotion {
+    color: $color-joy-dark;
+}
+
+.anger .profile--name,
+.anger .profile--emotion {
+    color: $color-anger-dark;
+}
+
+.disgust .profile--name,
+.disgust .profile--emotion {
+    color: $color-disgust-dark;
+}
+
+.fear .profile--name,
+.fear .profile--emotion {
+    color: $color-fear-dark;
+}
+
+.profile--image {
+    display: block;
+    margin: 0 auto;
+    transition: all 150ms ease-out;
+}
+
+@include media-query(medium) {
+    .profile--item {
+        float: left;
+        width: 25%;
+    }
+
+    .profile--item +.profile--item {
+        margin-top: 0;
+    }
+
+    .profile--link:hover .profile--image,
+    .profile--link:active .profile--image,
+    .profile--link:focus .profile--image {
+        transform: scale(1.5);
+    }
+}

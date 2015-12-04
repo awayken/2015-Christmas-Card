@@ -1,0 +1,13 @@
+<nav class="profile">
+    <ul class="profile--list">
+        <% emotions.forEach(function(emotion) { %>
+            <li class="profile--item <%= emotion.emotion.toLowerCase() %>">
+                <a class="profile--link" href="<%= emotion.name.toLowerCase() %>.html">
+                    <span class="profile--name"><%= emotion.name %></span>
+                    <img class="profile--image" src="<%= emotion.image %>" alt="An image of <%= emotion.name %> as <%= emotion.emotion %>.">
+                    <span class="profile--emotion"><%= emotion.emotion %></span>
+                </a>
+            </li>
+        <% }); %>
+    </ul>
+</nav>
