@@ -98,3 +98,12 @@
 .marble--fear::after {
     background-image: radial-gradient($color-fear-bright, $color-fear-light);
 }
+
+.marble--sadness {
+    background-image: radial-gradient($color-sadness-bright, $color-sadness-light, $color-sadness-dark);
+    border-color: $color-sadness-bright;
+}
+
+.marble--sadness::after {
+    background-image: radial-gradient($color-sadness-bright, $color-sadness-light);
+}
