@@ -8,7 +8,7 @@
     @extend .clear;
 
     background: lighten($color-background, 10%);
-    margin: 0 .25em 1em;
+    margin: 1.625em .25em 1em;
     padding: 1em .75em;
     text-align: center;
 }
@@ -19,8 +19,10 @@
     padding: 0;
 }
 
-.profile--item +.profile--item {
-    margin-top: .5em;
+.profile--item {
+    float: left;
+    margin-bottom: .5em;
+    width: 50%;
 }
 
 .profile--link {
@@ -53,7 +55,7 @@
 
 .profile--emotion {
     background: rgba(255, 255, 255, .7);
-    font-size: 2.25em;
+    font-size: 2.15em;
     margin-top: -1em;
     transition: all 300ms ease-out;
     z-index: 1;
@@ -82,7 +84,7 @@
 .profile--image {
     display: block;
     margin: 0 auto;
-    transition: all 150ms ease-out;
+    transition: all 100ms ease-out;
 }
 
 @include media-query(medium) {
@@ -99,5 +101,6 @@
     .profile--link:active .profile--image,
     .profile--link:focus .profile--image {
         transform: scale(1.5);
+        transition: all 300ms linear;
     }
 }
