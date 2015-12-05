@@ -22,16 +22,27 @@
     {
         "name": "Ian",
         "emotion": "Anger",
-        "image": "images/anger.jpg"
+        "image": "images/anger.jpg",
+        "introduction": "This is an introduction paragraph.",
+        "memories": [
+            {
+                "name": "Cool Memory",
+                "text": "<p>This is the memory.</p>"
+            }
+        ]
     },
     {
         "name": "Ainsley",
         "emotion": "Disgust",
-        "image": "images/disgust.jpg"
+        "image": "images/disgust.jpg",
+        "introduction": "This is an introduction paragraph.",
+        "memories": []
     },
     {
         "name": "Miles",
         "emotion": "Fear",
-        "image": "images/fear.jpg"
+        "image": "images/fear.jpg",
+        "introduction": "This is an introduction paragraph.",
+        "memories": []
     }
 ]
