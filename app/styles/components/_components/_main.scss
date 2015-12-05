@@ -1,0 +1,27 @@
+/**
+*
+* Main
+*
+**/
+
+.main {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 .25em;
+}
+
+.main--joy {
+    color: $color-joy-light;
+}
+
+.main--anger {
+    color: $color-anger-light;
+}
+
+.main--disgust {
+    color: $color-disgust-light;
+}
+
+.main--fear {
+    color: $color-fear-light;
+}
