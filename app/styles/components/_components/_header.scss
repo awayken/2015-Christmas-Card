@@ -17,3 +17,9 @@
 .header--logo {
     display: inline-block;
 }
+
+@include media-query(medium) {
+    .header {
+        margin-bottom: 2em;
+    }
+}
