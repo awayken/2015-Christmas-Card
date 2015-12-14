@@ -5,4 +5,4 @@ What should I do?
 [ ] CodePen for memories animation
 [x] Determine ability to use data file for populating emotion pages
 [ ] Write up our memories
-[ ] Write homepage copy introducing the concept
+[x] Write homepage copy introducing the concept
