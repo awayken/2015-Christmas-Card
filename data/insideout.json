@@ -6,16 +6,36 @@
         "introduction": "This is an introduction paragraph.",
         "memories": [
             {
-                "name": "Cool Memory",
-                "text": "<p>This is the memory.</p>"
+                "name": "Memory 1",
+                "text": "<p>Holli and Miles to Tennessee for Rolfes wedding</p>"
             },
             {
-                "name": "Awesome Memory",
-                "text": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+                "name": "Memory 2",
+                "text": "<p>Family vacation to Rapid City and Denver</p>"
             },
             {
-                "name": "Dumb Memory",
-                "text": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+                "name": "Memory 3",
+                "text": "<p>Holli planning for new classes, in fourth year at New Tech</p>"
+            },
+            {
+                "name": "Memory 4",
+                "text": "<p>Holli exercising with kids (13 month exercise streak)</p>"
+            },
+            {
+                "name": "Memory 5",
+                "text": "<p>Holli and Miles murder mystery</p>"
+            },
+            {
+                "name": "Memory 6",
+                "text": "<p>Holli and Miles to Minneapolis with friends</p>"
+            },
+            {
+                "name": "Memory 7",
+                "text": "<p>Family to visit Okoboji, Ian a big helper</p>"
+            },
+            {
+                "name": "Memory 8",
+                "text": "<p>Holli getting remote start</p>"
             }
         ]
     },
@@ -26,8 +46,28 @@
         "introduction": "This is an introduction paragraph.",
         "memories": [
             {
-                "name": "Cool Memory",
-                "text": "<p>This is the memory.</p>"
+                "name": "Memory 1",
+                "text": "<p>Ian SkyZone birthday party</p>"
+            },
+            {
+                "name": "Memory 2",
+                "text": "<p>Family vacation to Rapid City and Denver</p>"
+            },
+            {
+                "name": "Memory 3",
+                "text": "<p>Ian losing his first tooth</p>"
+            },
+            {
+                "name": "Memory 4",
+                "text": "<p>Ian learning how to read</p>"
+            },
+            {
+                "name": "Memory 5",
+                "text": "<p>Ian making up songs to sing to me</p>"
+            },
+            {
+                "name": "Memory 6",
+                "text": "<p>Ian starting Faith Formation</p>"
             }
         ]
     },
@@ -36,13 +76,67 @@
         "emotion": "Disgust",
         "image": "images/disgust.jpg",
         "introduction": "This is an introduction paragraph.",
-        "memories": []
+        "memories": [
+            {
+                "name": "Memory 1",
+                "text": "<p>Ainsley 2nd round of tubes and removal of adenoids</p>"
+            },
+            {
+                "name": "Memory 2",
+                "text": "<p>Family vacation to Rapid City and Denver</p>"
+            },
+            {
+                "name": "Memory 3",
+                "text": "<p>Ainsley getting lost in Denver Science Museum</p>"
+            },
+            {
+                "name": "Memory 4",
+                "text": "<p>Ainsley potty trained</p>"
+            },
+            {
+                "name": "Memory 5",
+                "text": "<p>Ainsley learning how to write letters</p>"
+            },
+            {
+                "name": "Memory 6",
+                "text": "<p>Ainsley first haircut</p>"
+            },
+            {
+                "name": "Memory 7",
+                "text": "<p>Ainsley getting bike</p>"
+            }
+        ]
     },
     {
         "name": "Miles",
         "emotion": "Fear",
         "image": "images/fear.jpg",
         "introduction": "This is an introduction paragraph.",
-        "memories": []
+        "memories": [
+            {
+                "name": "Memory 1",
+                "text": "<p>Holli and Miles to Tennessee for Rolfes wedding</p>"
+            },
+            {
+                "name": "Memory 2",
+                "text": "<p>Family vacation to Rapid City and Denver</p>"
+            },
+            {
+                "name": "Memory 3",
+                "text": "<p>Holli and Miles murder mystery</p>"
+            },
+            {
+                "name": "Memory 4",
+                "text": "<p>Holli and Miles to Minneapolis with friends</p>"
+            },
+            {
+                "name": "Memory 5",
+                "text": "<p>Miles speaking at CodeCamp</p>"
+            },
+            {
+                "name": "Memory 6",
+                "text": "<p>Barn on the Bluff vacation</p>"
+            }
+        ]
     }
 ]
