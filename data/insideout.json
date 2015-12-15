@@ -3,7 +3,7 @@
         "name": "Holli",
         "emotion": "Joy",
         "image": "images/joy.jpg",
-        "introduction": "This is an introduction paragraph.",
+        "introduction": "Holli turned twenty-nine this year but keeps as busy as a teacher half her age. Holli is in fourth year at New Tech High School but spent most of the summer planning for new classes, like Photography. She maintained her dedication to fitness with a thirteen-month daily exercising streak, despite travel, illness and children endlessly fascinated with the process. Just in time for winter, Holli got a remote starter installed in the van, which has brought her more joy than her husband ever has.",
         "memories": [
             {
                 "name": "Memory 1",
@@ -15,27 +15,15 @@
             },
             {
                 "name": "Memory 3",
-                "text": "<p>Holli planning for new classes, in fourth year at New Tech</p>"
-            },
-            {
-                "name": "Memory 4",
-                "text": "<p>Holli exercising with kids (13 month exercise streak)</p>"
-            },
-            {
-                "name": "Memory 5",
                 "text": "<p>Holli and Miles murder mystery</p>"
             },
             {
-                "name": "Memory 6",
+                "name": "Memory 4",
                 "text": "<p>Holli and Miles to Minneapolis with friends</p>"
             },
             {
-                "name": "Memory 7",
+                "name": "Memory 5",
                 "text": "<p>Family to visit Okoboji, Ian a big helper</p>"
-            },
-            {
-                "name": "Memory 8",
-                "text": "<p>Holli getting remote start</p>"
             }
         ]
     },
@@ -43,7 +31,7 @@
         "name": "Ian",
         "emotion": "Anger",
         "image": "images/anger.jpg",
-        "introduction": "This is an introduction paragraph.",
+        "introduction": "Ian turned five this year. He isn't in Kindergarten yet, but he's more ready than ever. Story time is no longer a passive endeavor. Ian's learned to recognize a handful of words that he points out with loud enthusiasm. He started Faith Formation this year, which has opened a whole new world of line of questions for mom and dad to answer. Thankfully, he loves it and does his weekly lessons eagerly.",
         "memories": [
             {
                 "name": "Memory 1",
@@ -59,15 +47,7 @@
             },
             {
                 "name": "Memory 4",
-                "text": "<p>Ian learning how to read</p>"
-            },
-            {
-                "name": "Memory 5",
                 "text": "<p>Ian making up songs to sing to me</p>"
-            },
-            {
-                "name": "Memory 6",
-                "text": "<p>Ian starting Faith Formation</p>"
             }
         ]
     },
@@ -75,34 +55,22 @@
         "name": "Ainsley",
         "emotion": "Disgust",
         "image": "images/disgust.jpg",
-        "introduction": "This is an introduction paragraph.",
+        "introduction": "Ainsley turned three this year, and she's been quickly growing out of her toddlerhood. She's cultivated a love of clothes (but an indifference to fashion), and chooses her day's outfit with great care every night. She had a second surgery to implant tubes and remove her adenoids in the hopes that it would eliminate her frequent ear infections, and it seems to have worked. Seeing Ian work so hard on his literacy has inspired Ainsley to take pencil to paper and begin learning how to recognize and write her letters.",
         "memories": [
             {
                 "name": "Memory 1",
-                "text": "<p>Ainsley 2nd round of tubes and removal of adenoids</p>"
-            },
-            {
-                "name": "Memory 2",
-                "text": "<p>Family vacation to Rapid City and Denver</p>"
-            },
-            {
-                "name": "Memory 3",
                 "text": "<p>Ainsley getting lost in Denver Science Museum</p>"
             },
             {
-                "name": "Memory 4",
+                "name": "Memory 2",
                 "text": "<p>Ainsley potty trained</p>"
             },
             {
-                "name": "Memory 5",
-                "text": "<p>Ainsley learning how to write letters</p>"
-            },
-            {
-                "name": "Memory 6",
+                "name": "Memory 3",
                 "text": "<p>Ainsley first haircut</p>"
             },
             {
-                "name": "Memory 7",
+                "name": "Memory 4",
                 "text": "<p>Ainsley getting bike</p>"
             }
         ]
@@ -111,7 +79,7 @@
         "name": "Miles",
         "emotion": "Fear",
         "image": "images/fear.jpg",
-        "introduction": "This is an introduction paragraph.",
+        "introduction": "Miles turned thirty-mumble this year, and he's never looked less young. He still works at Security Labs doing who-knows-what with websites. Writing is still a focus and passion for him, and he even completed the first draft of an awful novel. (Don't rush out to bookstores just yet, though.) He's also been writing blog posts for and judging <a href=\"http://www.mashstories.com\" target=\"_blank\">the Mash Stories competition</a>, and he's created a website for his writing at <a href=\"http://miles.ink\" target=\"_blank\">Miles.ink</a>. Miles also got back into the speaking, giving a talk at the 2015 South Dakota Code Camp.",
         "memories": [
             {
                 "name": "Memory 1",
@@ -131,10 +99,6 @@
             },
             {
                 "name": "Memory 5",
-                "text": "<p>Miles speaking at CodeCamp</p>"
-            },
-            {
-                "name": "Memory 6",
                 "text": "<p>Barn on the Bluff vacation</p>"
             }
         ]
