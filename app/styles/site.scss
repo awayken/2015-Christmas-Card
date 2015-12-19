@@ -1,12 +1,10 @@
-/*
- * Web Starter Kit
- *
- * Multi-screen layout styles for your page. Brought to you by the
- * Web Starter Kit team.
- *
- */
-@import '_h5bp';
+/**
+*
+* Site Styles
+*
+**/
 
+// Setup
 @import 'components/_palette';
 @import 'components/_utils';
 @import 'components/_normalize';
@@ -19,6 +17,7 @@
 @import 'components/_components/_main';
 @import 'components/_components/_marbles';
 @import 'components/_components/_media';
+@import 'components/_components/_memories';
 @import 'components/_components/_profile';
 @import 'components/_components/_footer';
 
