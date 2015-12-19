@@ -1,0 +1,39 @@
+/**
+*
+* Memories
+*
+**/
+
+
+.memory:target {
+    animation: flicker 3s ease-in-out 0s infinite;
+    background-color: $color-memory;
+    background-image: radial-gradient($color-memory 40%, $color-memory-light);
+    background-size: 100%;
+    background-position: center center;
+    border: 2px solid $color-memory-light;
+    border-radius: 1em;
+    box-shadow: 0 0 3em $color-memory;
+    color: #fff;
+    margin-bottom: 2.5em;
+    overflow: hidden;
+}
+
+:target .memory--text {
+    margin: 0;
+    padding: .5em 1em;
+    text-align: left;
+}
+
+@include media-query(medium) {
+    .memory:target {
+        border-radius: 30%;
+        box-shadow: 0 0 8em $color-memory;
+        margin-bottom: 4em;
+    }
+
+    :target .memory--text {
+        padding: 3em 4em;
+        text-align: center;
+    }
+}
