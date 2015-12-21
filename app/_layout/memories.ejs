@@ -1,6 +1,7 @@
-<section class="memories">
+<section class="memories" id="memories">
     <% memories.forEach(function( memory, index ) { %>
         <article class="memory" id="memory<%= index %>">
+            <a class="memory--close" href="#memories">Close</a>
             <div class="memory--text"><%- memory.text %></div>
         </article>
     <% }); %>
