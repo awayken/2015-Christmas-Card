@@ -11,7 +11,7 @@
 
 <h1 class="main--<%= character.emotion.toLowerCase() %>">Meet <%= character.emotion %></h1>
 
-<p><%= character.introduction %></p>
+<p><%- character.introduction %></p>
 
 <%- include('_layout/marbles', { marbles: character.memories, emotion: character.emotion }) -%>
 
