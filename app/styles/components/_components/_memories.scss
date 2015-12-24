@@ -9,7 +9,26 @@
     margin-bottom: 2.5em;
 }
 
+.memory--close {
+    position: absolute;
+    right: 10em;
+    top: 0;
+    visibility: hidden;
+}
+
 .memory:target {
+    background: $color-background-light;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .35);
+    font-size: 1.2em;
+    padding: .5em .25em;
+}
+
+.memory--text {
+    overflow: auto;
+    text-align: left;
+}
+
+.memory--popup {
     animation: flicker 3s ease-in-out 0s infinite;
     background-color: $color-memory;
     background-image: radial-gradient($color-memory 40%, $color-memory-light);
@@ -23,34 +42,22 @@
     position: relative;
 }
 
-.memory--close {
-    position: absolute;
-    right: 10em;
-    top: 0;
-    visibility: hidden;
-}
-
-.memory:target .memory--close {
+.memory--popup .memory--close {
     visibility: visible;
 }
 
-.memory--text {
-    overflow: auto;
-    text-align: left;
-}
-
-.memory:target .memory--text {
+.memory--popup .memory--text {
     padding: .5em 1em;
 }
 
 @include media-query(medium) {
-    .memory:target {
+    .memory--popup {
         border-radius: 30%;
         box-shadow: 0 0 8em $color-memory;
         margin-bottom: 4em;
     }
 
-    .memory:target .memory--text {
+    .memory--popup .memory--text {
         padding: 3em 4em;
         text-align: center;
     }
