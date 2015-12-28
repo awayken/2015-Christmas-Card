@@ -6,24 +6,16 @@
         "introduction": "Holli turned twenty-nine this year but keeps as busy as a teacher half her age. Holli is in fourth year at New Tech High School but spent most of the summer planning for new classes, like Photography. She maintained her dedication to fitness with a thirteen-month daily exercising streak, despite travel, illness and children endlessly fascinated with the process. Just in time for winter, Holli got a remote starter installed in the van, which has brought her more joy than her husband ever has.",
         "memories": [
             {
-                "name": "Memory 1",
-                "text": "<p>Holli and Miles to Tennessee for Rolfes wedding</p>"
-            },
-            {
-                "name": "Memory 2",
-                "text": "<p>Family vacation to Rapid City and Denver</p>"
-            },
-            {
-                "name": "Memory 3",
-                "text": "<p>Holli and Miles murder mystery</p>"
-            },
-            {
                 "name": "Memory 4",
                 "text": "<p>Holli and Miles to Minneapolis with friends</p>"
             },
             {
                 "name": "Memory 5",
                 "text": "<p>Family to visit Okoboji, Ian a big helper</p>"
+            },
+            {
+                "name": "Memory 5",
+                "text": "<p>Barn on the Bluff vacation</p>"
             }
         ]
     },
@@ -90,16 +82,12 @@
                 "text": "<p>Miles's cousin, Dirk Remily, married Erin Monahan in Denver. Ian was asked to be the ring bearer, so we made a family vacation out of it! Our trip was several days in the making, two out and two back. We stopped in Rapid City and enjoyed all things <em>dinosauria</em>. Then we made our way south into Colorado. Our trip there was notable when a GPS confusion added an hour of travel time through Wyoming. We saw lots of family, both Miles and Rausch, and got to enjoy some sites and relaxation. The Badlands made for some particularly memorable photo opportunities.</p>"
             },
             {
-                "name": "Memory 3",
-                "text": "<p>Holli and Miles murder mystery</p>"
-            },
-            {
-                "name": "Memory 4",
+                "name": "Presenting Mr. and Mrs. Jirik?",
                 "text": "<p>Moriah's wedding</p>"
             },
             {
-                "name": "Memory 5",
-                "text": "<p>Barn on the Bluff vacation</p>"
+                "name": "Presenting Mr. and Mrs. Majesty",
+                "text": "<p>Miles's workplace had their Christmas Party organized as a murder mystery at Calico Skies Winery this year. Miles and Holli played the roles of the former Prom King and Prom Queen, and Holli went all out designing and creating the costumes. While we didn't win anything, the experience was fun and memorable, and no one actually got hurt.</p>"
             }
         ]
     }
