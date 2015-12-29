@@ -40,7 +40,7 @@
   },
   "name": "ccard2015",
   "description": "[View our 2015 Christmas Card here](http://www.milesrauschfamily.com/ccard/2015/).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
