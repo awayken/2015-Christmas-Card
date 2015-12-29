@@ -198,6 +198,24 @@ gulp.task('default', ['clean'], function (cb) {
   runSequence('styles', ['jshint', 'html', 'images', 'fonts', 'copy'], cb);
 });
 
+// Build production files, then deploy
+gulp.task('deploy', function (cb) {
+    var ftp = require( 'vinyl-ftp' );
+    var ftpDetails = require('./data/credentials.json');
+
+    var conn = ftp.create( {
+        host: ftpDetails.host,
+        user: ftpDetails.username,
+        password: ftpDetails.password,
+        parallel: 8,
+        log: $.util.log
+    });
+
+    return gulp.src( './dist/**', { base: './dist' })
+        .pipe( conn.newer( ftpDetails.folder ) )
+        .pipe( conn.dest( ftpDetails.folder ) );
+});
+
 // Run PageSpeed Insights
 gulp.task('pagespeed', function (cb) {
   // Update the below URL to the public URL of your site
