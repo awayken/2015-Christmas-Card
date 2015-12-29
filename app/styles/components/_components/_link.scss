@@ -1,13 +1,16 @@
 /**
 *
-* Link
+* Hyperlinks
 *
 **/
 
 a {
-  color: $colorBlue;
+    color: $color-text-link;
 }
 
-a:hover {
-  text-decoration: none;
+a:hover,
+a:active,
+a:focus {
+    color: $color-text-link-light;
+    text-decoration: none;
 }

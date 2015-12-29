@@ -49,3 +49,11 @@ h2 {
 .huge {
   @include type--huge;
 }
+
+p {
+    padding-top: 0;
+}
+
+p + p {
+    padding-top: 1.5em;
+}

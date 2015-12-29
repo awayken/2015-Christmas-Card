@@ -1,26 +1,16 @@
 /**
 *
-* Material design color palettes.
-* @see http://www.google.com/design/spec/style/color.html
+* Color Palette
 *
 **/
-
-/* ==========  Blacks  ========== */
-
-$colorBlack: #000;
-$colorGrayDark: rgba($colorBlack, .87);
-$colorGray: rgba($colorBlack, .54);
-$colorGrayLight: rgba($colorBlack, .26);
-$colorGrayLighter: rgba($colorBlack, .12);
-
-/* ==========  Color Palette  =========== */
 
 $color-background: #010D47;
 $color-background-light: #3179EF;
 $color-accent: #fce80e;
 
 $color-text: #9ec0f9;
-$colorText: $color-text;
+$color-text-link: #3179EF;
+$color-text-link-light: #9ec0f9;
 
 $color-rail-top: #CD5E40;
 $color-rail-bottom: #C15028;
@@ -45,3 +35,6 @@ $color-anger-bright: #FCCE4A;
 $color-sadness-dark: #1F4081;
 $color-sadness-light: #4F80C2;
 $color-sadness-bright: #A2DDEF;
+
+$color-memory: #F15E5D;
+$color-memory-light: #FDBF80;

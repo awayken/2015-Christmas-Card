@@ -1,5 +1,8 @@
-<% memories.forEach(function( memory, index ) { %>
-    <article class="memory--item" id="#memory<%= index %>">
-        <%- memory.text %>
-    </article>
-<% }); %>
+<section class="memories">
+    <% memories.forEach(function( memory, index ) { %>
+        <article class="memory" id="memory<%= index %>">
+            <h1 class="memory--name"><%- memory.name %></h1>
+            <div class="memory--text"><%- memory.text %></div>
+        </article>
+    <% }); %>
+</section>

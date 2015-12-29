@@ -195,19 +195,34 @@ gulp.task('clearcache', function( done ) {
 
 // Build production files, the default task
 gulp.task('default', ['clean'], function (cb) {
-  runSequence('styles', ['jshint', 'html', 'images', 'fonts', 'copy'], cb);
+    runSequence('styles', ['jshint', 'html', 'images', 'fonts', 'copy'], cb);
+});
+
+// Build production files, then deploy
+gulp.task('deploy', function (cb) {
+    var ftp = require( 'vinyl-ftp' );
+    var ftpDetails = require('./data/credentials.json');
+
+    var conn = ftp.create( {
+        host: ftpDetails.host,
+        user: ftpDetails.username,
+        password: ftpDetails.password,
+        parallel: 8,
+        log: $.util.log
+    });
+
+    return gulp.src( './dist/**', { base: './dist' })
+        .pipe( conn.newer( ftpDetails.folder ) )
+        .pipe( conn.dest( ftpDetails.folder ) );
 });
 
 // Run PageSpeed Insights
 gulp.task('pagespeed', function (cb) {
   // Update the below URL to the public URL of your site
-  pagespeed.output('example.com', {
+  pagespeed.output('milesrauschfamily.com/ccard/2015', {
     strategy: 'mobile',
     // By default we use the PageSpeed Insights free (no API key) tier.
     // Use a Google Developer API key if you have one: http://goo.gl/RkN0vE
     // key: 'YOUR_API_KEY'
   }, cb);
 });
-
-// Load custom tasks from the `tasks` directory
-// try { require('require-dir')('tasks'); } catch (err) { console.error(err); }
