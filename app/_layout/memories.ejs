@@ -1,4 +1,4 @@
-<section class="memories">
+<section class="memories memories--<%= emotion.toLowerCase() %>">
     <% memories.forEach(function( memory, index ) { %>
         <article class="memory" id="memory<%= index %>">
             <h1 class="memory--name"><%- memory.name %></h1>
