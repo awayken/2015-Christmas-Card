@@ -1,25 +1,5 @@
 [
     {
-        "name": "Holli",
-        "emotion": "Joy",
-        "image": "images/joy.jpg",
-        "introduction": "Holli turned twenty-nine this year but keeps as busy as a teacher half her age. Holli is in fourth year at New Tech High School but spent most of the summer planning for new classes, like Photography. She maintained her dedication to fitness with a thirteen-month daily exercising streak, despite travel, illness and children endlessly fascinated with the process. Just in time for winter, Holli got a remote starter installed in the van, which has brought her more joy than her husband ever has.",
-        "memories": [
-            {
-                "name": "Memory 4",
-                "text": "<p>Holli and Miles to Minneapolis with friends</p>"
-            },
-            {
-                "name": "Memory 5",
-                "text": "<p>Family to visit Okoboji, Ian a big helper</p>"
-            },
-            {
-                "name": "Memory 5",
-                "text": "<p>Barn on the Bluff vacation</p>"
-            }
-        ]
-    },
-    {
         "name": "Ian",
         "emotion": "Anger",
         "image": "images/anger.jpg",
@@ -62,6 +42,26 @@
             {
                 "name": "First Bike",
                 "text": "<p>For her third birthday, Ainsley got her first bike, a Frozen-themed bike complete with tiara helmet. She showed some aptitude for it this summer after <a href=\"https://www.instagram.com/p/5JDdiPRIIDHlvHPNdN9Oca97Si4H856agZkpQ0/?taken-by=holli_joi\" target=\"_blank\">climbing onto Ian's bike</a> and making some successful, unguided circuits around the driveway. It wasn't until September, though, that she would get a two(ish) wheeled vehicle of her own.</p>"
+            }
+        ]
+    },
+    {
+        "name": "Holli",
+        "emotion": "Joy",
+        "image": "images/joy.jpg",
+        "introduction": "Holli turned twenty-nine this year but keeps as busy as a teacher half her age. Holli is in fourth year at New Tech High School but spent most of the summer planning for new classes, like Photography. She maintained her dedication to fitness with a thirteen-month daily exercising streak, despite travel, illness and children endlessly fascinated with the process. Just in time for winter, Holli got a remote starter installed in the van, which has brought her more joy than her husband ever has.",
+        "memories": [
+            {
+                "name": "Memory 4",
+                "text": "<p>Holli and Miles to Minneapolis with friends</p>"
+            },
+            {
+                "name": "Memory 5",
+                "text": "<p>Family to visit Okoboji, Ian a big helper</p>"
+            },
+            {
+                "name": "Memory 5",
+                "text": "<p>Barn on the Bluff vacation</p>"
             }
         ]
     },
