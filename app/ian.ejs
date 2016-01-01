@@ -11,10 +11,10 @@
 
 <h1 class="main--<%= character.emotion.toLowerCase() %>">Meet <%= character.emotion %></h1>
 
-<p><%- character.introduction %></p>
+<p><a href="https://www.flickr.com/photos/holli_joi/19155742316/in/album-72157654691604630/" target="_blank">Ian turned five</a> on April 30 this year. He isn't in Kindergarten yet, but now he's more ready than ever. Story time is no longer a passive endeavor. <a href="https://www.youtube.com/watch?v=DlPOb0AOcVU" target="_blank">Ian's learned to read</a> a large handful of words that he points out with loud enthusiasm as we read together. He started Faith Formation this year, which has opened a whole new line of questions for mom and dad to attempt to answer. Thankfully, he loves it and does his weekly lessons eagerly.</p>
 
 <%- include('_layout/marbles', { marbles: character.memories, emotion: character.emotion }) -%>
 
-<%- include('_layout/memories', { memories: character.memories }) -%>
+<%- include('_layout/memories', { memories: character.memories, emotion: character.emotion }) -%>
 
 <%- include('_layout/footer') -%>

@@ -1,45 +1,24 @@
 [
     {
-        "name": "Holli",
-        "emotion": "Joy",
-        "image": "images/joy.jpg",
-        "introduction": "Holli turned twenty-nine this year but keeps as busy as a teacher half her age. Holli is in fourth year at New Tech High School but spent most of the summer planning for new classes, like Photography. She maintained her dedication to fitness with a thirteen-month daily exercising streak, despite travel, illness and children endlessly fascinated with the process. Just in time for winter, Holli got a remote starter installed in the van, which has brought her more joy than her husband ever has.",
-        "memories": [
-            {
-                "name": "Memory 4",
-                "text": "<p>Holli and Miles to Minneapolis with friends</p>"
-            },
-            {
-                "name": "Memory 5",
-                "text": "<p>Family to visit Okoboji, Ian a big helper</p>"
-            },
-            {
-                "name": "Memory 5",
-                "text": "<p>Barn on the Bluff vacation</p>"
-            }
-        ]
-    },
-    {
         "name": "Ian",
         "emotion": "Anger",
         "image": "images/anger.jpg",
-        "introduction": "Ian turned five this year. He isn't in Kindergarten yet, but he's more ready than ever. Story time is no longer a passive endeavor. Ian's learned to recognize a handful of words that he points out with loud enthusiasm. He started Faith Formation this year, which has opened a whole new world of line of questions for mom and dad to answer. Thankfully, he loves it and does his weekly lessons eagerly.",
         "memories": [
             {
                 "name": "SkyZone",
-                "text": "<p>Turning five came with a number of perks for Ian, like being allowed to chew (and buy) gum. Another perk was inviting two friends to a birthday party at SkyZone. SkyZone is an indoor trampoline park, where people can buy tickets that allow them a certain amount of time inside. There are general jump areas, dodgeball arenas and even a trampoline perched over a foam pit. Ian invited Josie and Jaxton, and the three were as thick as thieves.</p><p>From Ian's perspective: QUOTE</p>"
+                "text": "<p><a href=\"https://www.flickr.com/photos/holli_joi/19155745586/in/album-72157654691604630/\" target=\"_blank\">Turning five</a> came with a number of perks for Ian, like being allowed to chew (and buy) <a href=\"https://www.flickr.com/photos/holli_joi/19176140902/in/album-72157654691604630/\" target=\"_blank\">gum</a>. Another perk was inviting two friends to his birthday party at SkyZone, an indoor trampoline park. They <a href=\"https://www.flickr.com/photos/holli_joi/18994217340/in/album-72157654691604630/\" target=\"_blank\">enjoyed jumping</a> around in the general jump areas and taking turns leaping into the foam pit. Ian invited Josie and Jaxton, and the three were as <a href=\"https://www.flickr.com/photos/holli_joi/18559352544/in/album-72157654691604630/\" target=\"_blank\">thick as thieves</a>.</p><p>From Ian's perspective: QUOTE</p>"
             },
             {
                 "name": "Star Wars",
-                "text": "<p>With a new Star Wars movie on the horizon, Miles decided it was time to introduce Ian to the (original) Star Wars galaxy. We took several Sundays, popcorn and root beer in hand, and watched the saga set a long time ago in a galaxy far, far away. Much to Miles's dismay, Ian was immediately fascinated with Stormtroopers, the worthless foot soldiers of the Empire. He eventually passed some of his allegiance to Darth Vader, but it wasn't enough to earn back the paternal pride he had lost.</p><p>From Ian: QUOTE</p>"
+                "text": "<p>With a new Star Wars movie on the horizon, Miles decided it was time to introduce Ian to the (original) Star Wars galaxy. We took several Sundays, popcorn and root beer in hand, and watched the saga set a long time ago in a galaxy far, far away. Much to Miles's dismay, Ian was immediately fascinated with Stormtroopers, the worthless foot soldiers of the Empire. He eventually passed some of his allegiance to <a href=\"https://www.flickr.com/photos/holli_joi/24014317646/in/album-72157651301249278/\" target=\"_blank\">Darth Vader</a>, but it wasn't enough to earn back the paternal pride he had lost.</p><p>From Ian: QUOTE</p>"
             },
             {
                 "name": "LOST Tooth",
-                "text": "<p>Ian surprised us with a strange complaint this summer. He couldn't chew food with his front teeth. When we took a look, it was clear why: he had a loose tooth! We took him by the dentist who told Ian, if he kept wiggling it, it would be out by the next week. It didn't quite happen that quickly, but soon he had lost his tooth. He put it into his tooth pillow and was rewarded by the Tooth Fairy the next morning. His smile was gap-toothed for long, however, as a new tooth pushed its way up just weeks later.</p><p>Said Ian: QUOTE</p>"
+                "text": "<p>Ian surprised us with an unexpected complaint this summer. He couldn't chew food with his front teeth. When we took a look, it was clear why: he had <a href=\"https://www.flickr.com/photos/holli_joi/22962500121/in/album-72157654691604630/\" target=\"_blank\">a loose tooth</a>! We thought it was a little early and took him to the dentist who told Ian, if he kept wiggling it, it would be out by the next week. It didn't quite happen that quickly, but soon he had lost his tooth. (In fact, he <a href=\"https://www.flickr.com/photos/holli_joi/22951347785/in/album-72157654691604630/\" target=\"_blank\">pulled his own tooth</a> on an early Sunday morning while his oblivious parents slept.) He put it into his tooth pillow and was rewarded by the Tooth Fairy the next morning. His smile wasn't gap-toothed for long, however, as a new tooth was already coming in before the baby tooth fell out.</p><p>Said Ian: QUOTE</p>"
             },
             {
                 "name": "Mid-night Sonata",
-                "text": "<p>Bedtimes come with a certain amount of flexibility, especially as the kids grow and mature. Ian introduced a new feature to his routine with Holli: improvized songs. He'll give Holli a couple topics to choose from, and then launch into a bedtime song on that subject. Holli has had the foresight to record some of these for parental review afterwards.</p><p>Ian had this to say: QUOTE</p>"
+                "text": "<p>Bedtime routines come with <a href=\"https://www.flickr.com/photos/holli_joi/22331858853/in/album-72157651301249278/\" target=\"_blank\">a certain amount of flexibility</a>, especially as the kids <a href=\"https://www.flickr.com/photos/holli_joi/22927099386/in/album-72157654691604630/\" target=\"_blank\">grow and mature</a>. Ian introduced a new feature to his routine with Holli: improvised songs. He'll give Holli a couple topics to choose from, and then launch into a bedtime song on that subject. Holli has had the foresight to <a href=\"https://drive.google.com/file/d/0B-3r9cs8Q4sjNmFzbmp2NHlOR0U/view?usp=sharing\" target=\"_blank\">record some of these</a> for parental enjoyment afterwards.</p><p>Ian had this to say: QUOTE</p>"
             }
         ]
     },
@@ -47,11 +26,10 @@
         "name": "Ainsley",
         "emotion": "Disgust",
         "image": "images/disgust.jpg",
-        "introduction": "Ainsley turned three this year, and she's been quickly growing out of her toddlerhood. She's cultivated a love of clothes (but an indifference to fashion), and chooses her day's outfit with great care every night. She had a second surgery to implant tubes and remove her adenoids in the hopes that it would eliminate her frequent ear infections, and it seems to have worked. Seeing Ian work so hard on his literacy has inspired Ainsley to take pencil to paper and begin learning how to recognize and write her letters.",
         "memories": [
             {
                 "name": "LOST",
-                "text": "<p>We had a pretty major scare when visiting the Denver Science Museum. We were exploring the multi-level dinosaur exhibit. Holli found a dinosaur she wanted to show Ian, and she told Ainsley to go by Daddy. Ainsley set off on her way to find a father that was not in the direction she was headed. When Miles came around a corner to find Holli and Ian, the obvious question was asked: where's Ainsley?</p><p>Panic overtook everyone. We scoured the exhibits, first calling her name, then shouting it. We wound our way up and down staircase after staircase, through serpentine, dimly lit hallways, but she was gone. Holli made her way out of the exhibit, searching out an employee to raise the alarm. When she arrived, a Good Samaritan was already there with Ainsley in tow. After a tearful reunion, a new family rule was drafted: eye contact is required for every child swap.</p><p>This is an incident that Ainsley recalls with a certain amount of detachment. Mommy was sad, she says.</p>"
+                "text": "<p>We had a pretty major scare when visiting the Denver Science Museum this summer. We were exploring the <a href=\"https://www.flickr.com/photos/holli_joi/22329038323/in/album-72157654691604630/\" target=\"_blank\">extensive dinosaur exhibit</a>. Holli found a dinosaur she wanted to show Ian, and she told Ainsley to go by Daddy. Ainsley set off on her way to find a father that was not in the direction she was headed. When Miles came around a corner to find Holli and Ian, the obvious question was asked: where's Ainsley?</p><p>Panic overtook everyone. We scoured the multi-level exhibit, first calling her name, then shouting it. All while trying to keep Ian apace and calm. We wound our way up and down staircase after staircase, through serpentine, dimly lit hallways, but it was clear she was gone from the exhibit hall. Holli made her way out of the exhibit, searching out an employee to raise the alarm. When she arrived, a Good Samaritan was talking to the same employee there, Ainsley in tow. After a tearful reunion, a new family rule was drafted: eye contact is required for every child swap.</p><p>This is an incident that Ainsley recalls with a certain amount of detachment. \"Mommy was sad,\" she says.</p>"
             },
             {
                 "name": "No More Diapers",
@@ -59,11 +37,30 @@
             },
             {
                 "name": "First Haircut",
-                "text": "<p>This past year, Ainsley got her first haircut. The experience was anxious but tearless (unlike Ian's first). It was just a trim. Although she's asked for a haircut dozens of times, Ainsley is an ardent fan of her long hair (like Elsa), and she was relieved that the operation was a simple trim.</p><p>Said Ainsley: I told mommy on the drive I would cry, but when we got there, I didn't cry.</p>"
+                "text": "<p>This past year, Ainsley got her first haircut. The experience was <a href=\"https://www.flickr.com/photos/holli_joi/22327884904/in/album-72157654691604630/\" target=\"_blank\">anxious</a> but <a href=\"https://www.flickr.com/photos/holli_joi/22329464143/in/album-72157654691604630/\" target=\"_blank\">tearless</a> (unlike Ian's first). It was just a trim. Although she's asked for a haircut dozens of times, Ainsley is an ardent fan of <a href=\"https://www.flickr.com/photos/holli_joi/18995664309/in/album-72157654691604630/\" target=\"_blank\">her long hair</a> (like Elsa), and she was relieved that the operation was <a href=\"https://www.flickr.com/photos/holli_joi/22327877504/in/album-72157654691604630/\" target=\"_blank\">a simple trim</a>.</p><p>Said Ainsley: \"I told mommy on the drive I would cry, but when we got there, I didn't cry.\"</p>"
             },
             {
                 "name": "First Bike",
-                "text": "<p>For her third birthday, Ainsley got her first bike. She showed some aptitude for it this summer after climbing onto Ian's bike and making some successful, unguided circuits around the driveway. It wasn't until September, though, that she would get a two(ish) wheeled vehicle of her own.</p>"
+                "text": "<p>For her third birthday, Ainsley got her first bike, a Frozen-themed bike complete with tiara helmet. She showed some aptitude for it this summer after <a href=\"https://www.instagram.com/p/5JDdiPRIIDHlvHPNdN9Oca97Si4H856agZkpQ0/?taken-by=holli_joi\" target=\"_blank\">climbing onto Ian's bike</a> and making some successful, unguided circuits around the driveway. It wasn't until September, though, that she would get a two(ish) wheeled vehicle of her own.</p>"
+            }
+        ]
+    },
+    {
+        "name": "Holli",
+        "emotion": "Joy",
+        "image": "images/joy.jpg",
+        "memories": [
+            {
+                "name": "She Likes to Move It, Move It, Move It, Move It&hellip;",
+                "text": "<p>Holli maintained her dedication to health and fitness with a thirteen-month streak of exercising every day, despite travel, illness and <a href=\"https://www.flickr.com/photos/holli_joi/18995882339/in/album-72157654691604630/\" target=\"_blank\">children endlessly fascinated with the process</a>. Usually waking up at 4:30 AM, she developed a <a href=\"https://www.flickr.com/photos/holli_joi/22953116885/in/album-72157654691604630/\" target=\"_blank\">habit of fitness</a> as a part of her daily life. <a href=\"https://www.flickr.com/photos/holli_joi/22927048436/in/album-72157654691604630/\" target=\"_blank\">It hasn't gone unnoticed.</a> Ian and Ainsley can frequently be observed \"playing exercise.\" Ainsley is known to put her baby doll down for a nap \"so <a href=\"https://www.flickr.com/photos/holli_joi/19182161375/in/album-72157654691604630/\" target=\"_blank\">mommy can exercise</a>.\"</p>"
+            },
+            {
+                "name": "Okoboji 100 Year Celebration",
+                "text": "<p>The family returned to Lake Okoboji United Methodist Camp (where Holli worked and volunteered in the summers as a high school and college student). The camp put on <a href=\"https://www.flickr.com/photos/holli_joi/22560873959/in/album-72157651301249278/\" target=\"_blank\">a special weekend</a> in October for their 100 year celebration and we were, literally, the first to sign up. We <a href=\"https://www.flickr.com/photos/holli_joi/22765117170/in/album-72157654691604630/\" target=\"_blank\">reunited with friends</a>, explored what's changed at the camp and picked up where we left off. Ian was eager to volunteer for kitchen duty, so Holli taught him how to be on \"clean duty\" for putting the washed dishes away. It was a lot of hand-washing after <em>every <strong>single</strong></em> nose scratch, but <a href=\"https://www.flickr.com/photos/holli_joi/22926013096/in/album-72157654691604630/\" target=\"_blank\">his heart was so happy to serve</a>. Holli all but melted when Ian told her that he's going to work at the camp when he grows up. It was a wonderful weekend full of <a href=\"https://www.flickr.com/photos/holli_joi/22329273384/in/album-72157654691604630/\" target=\"_blank\">canoeing</a>, <a href=\"https://www.flickr.com/photos/holli_joi/22763990310/in/album-72157654691604630/\" target=\"_blank\">archery</a>, <a href=\"https://www.flickr.com/photos/holli_joi/22938626482/in/album-72157654691604630/\" target=\"_blank\">wagon riding</a>, <a href=\"https://www.flickr.com/photos/holli_joi/22533621237/in/album-72157651301249278/\" target=\"_blank\">rock wall climbing</a>, <a href=\"https://www.flickr.com/photos/holli_joi/22534783777/in/album-72157654691604630/\" target=\"_blank\">campfiring</a>, and <a href=\"https://www.flickr.com/photos/holli_joi/22559884199/in/album-72157654691604630/\" target=\"_blank\">hot chocolating</a>. The kids are looking forward to returning there soon.</p>"
+            },
+            {
+                "name": "Barn on the Bluff",
+                "text": "<p><a href=\"https://www.flickr.com/photos/holli_joi/19709273518/in/album-72157654691604630/\" target=\"_blank\">The Gregg family</a> rented a bed and breakfast for a fun weekend this summer at The Barn on the Bluff in Elkader, IA. The kids always love an opportunity to play with <a href=\"https://www.flickr.com/photos/holli_joi/19274659684/in/album-72157654691604630/\" target=\"_blank\">their cousins, Jackson and Lauren</a>, and this bed and breakfast was <a href=\"https://www.flickr.com/photos/holli_joi/19897283845/in/album-72157654691604630/\" target=\"_blank\">a beautiful backdrop</a> for the memories. It was a relaxing (and quite humid) weekend of games, puzzles, s'mores, exploring the local area and, of course, <a href=\"https://www.flickr.com/photos/holli_joi/19871104846/in/album-72157654691604630/\" target=\"_blank\">breakfast</a>.</p>"
             }
         ]
     },
@@ -71,23 +68,18 @@
         "name": "Miles",
         "emotion": "Fear",
         "image": "images/fear.jpg",
-        "introduction": "Miles turned thirty-mumble this year, and he's never looked less young. He still works at Security Labs doing who-knows-what with websites. Writing is still a focus and passion for him, and he even completed the first draft of an awful novel. (Don't rush out to bookstores just yet, though.) He's also been writing blog posts for and judging <a href=\"http://www.mashstories.com\" target=\"_blank\">the Mash Stories competition</a>, and he's created a website for his writing at <a href=\"http://miles.ink\" target=\"_blank\">Miles.ink</a>. Miles also got back into the speaking, giving a talk at the 2015 South Dakota Code Camp.",
         "memories": [
             {
-                "name": "Presenting Mr. and Mrs. Rolfes",
-                "text": "<p>This summer, Miles was invited to be the (nearly) Best Man at the wedding of friends Tony and Alex (Romanksi) Rolfes. The couple live in Knoxville, TN, and Miles and Holli made the trek alone, leaving the kids with some delighted grandparents. They flew down early and stayed with Tony. Bryce, Lindsey and Hazel arrived a little later, driving from the Cleveland, OH, area. Bryce, in a spectacular err in judgement, had been named Best Man. Bryce and Miles co-wrote the Best Man Speech, which was by some accounts too long, some accounts too vulgar, but by most account pretty awesome. Tony appeared to be enjoying it, which is really all that mattered.</p><p>It was such a pleasure to get to spend some extended time with Tony since he's been away from the Midwest. Alex is lovely and a great match for Tony, and being able to participate in their special day was an honor. Miles says he has no problem with Bryce being chosen Best Man.</p>"
+                "name": "Second-Best Man",
+                "text": "<p>This summer, Miles was invited to be the (nearly) Best Man at the wedding of friends Tony and Alex (Romanksi) Rolfes. The couple live in Knoxville, TN, and Miles and Holli <a href=\"https://www.flickr.com/photos/holli_joi/18994349850/in/album-72157654691604630/\" target=\"_blank\">made the trek alone</a>, leaving the kids with some delighted grandparents. We flew down early and stayed with Tony. Bryce, Lindsey and Hazel arrived a little later, driving from the Cleveland, OH, area, and we also met up with Miles's aunt Sue, Miles's parents and a host of hometown friends. Bryce &mdash; probably due to a technicality &mdash; had officially been named Best Man, but both Bryce and Miles co-wrote <a href=\"https://www.youtube.com/watch?v=pGE86y-YK54\" target=\"_blank\">the Best Man Speech</a>, which was by most accounts pretty awesome. Tony was enjoying it, which is really all that mattered.</p><p>It was such a pleasure to get to spend some extended time with Tony since he's been away from the Midwest. Alex is lovely and a great match for Tony, and being able to participate in <a href=\"https://www.flickr.com/photos/holli_joi/19155830706/in/album-72157654691604630/\" target=\"_blank\">their special day</a> was an honor. Miles says he has \"no problem\" with Bryce being chosen Best Man.</p>"
             },
             {
-                "name": "Presenting Mr. and Mrs. Remily",
-                "text": "<p>Miles's cousin, Dirk Remily, married Erin Monahan in Denver. Ian was asked to be the ring bearer, so we made a family vacation out of it! Our trip was several days in the making, two out and two back. We stopped in Rapid City and enjoyed all things <em>dinosauria</em>. Then we made our way south into Colorado. Our trip there was notable when a GPS confusion added an hour of travel time through Wyoming. We saw lots of family, both Miles and Rausch, and got to enjoy some sites and relaxation. The Badlands made for some particularly memorable photo opportunities.</p>"
+                "name": "Badlands and Denver, Maaan",
+                "text": "<p>Miles's cousin, Dirk Remily, married Erin Monahan in Denver this summer. Ian was asked to be the <a href=\"https://www.flickr.com/photos/holli_joi/22557791199/in/album-72157654691604630/\" target=\"_blank\">ring bearer</a>, so we made a family vacation out of it! Our trip was several days in the making, two out and two back. We stopped in Rapid City and enjoyed all things <a href=\"https://www.flickr.com/photos/holli_joi/22961104701/in/album-72157654691604630/\" target=\"_blank\"><em>dinosauria</em></a>. Then we made our way toward Colorado. Our trip there was notable when a GPS confusion added an hour of travel time through Wyoming. All-in-all, we saw lots of family, both Mileses and Rausches, and we got to enjoy some site seeing and <a href=\"https://www.flickr.com/photos/holli_joi/22936766782/in/album-72157654691604630/\" target=\"_blank\">relaxation</a>. <a href=\"https://www.flickr.com/photos/holli_joi/22924165426/in/album-72157654691604630/\" target=\"_blank\">The Badlands</a> also made for some particularly memorable <a href=\"https://www.flickr.com/photos/holli_joi/22531877438/in/album-72157654691604630/\" target=\"_blank\">photo opportunities</a>.</p>"
             },
             {
-                "name": "Presenting Mr. and Mrs. Jirik?",
-                "text": "<p>Moriah's wedding</p>"
-            },
-            {
-                "name": "Presenting Mr. and Mrs. Majesty",
-                "text": "<p>Miles's workplace had their Christmas Party organized as a murder mystery at Calico Skies Winery this year. Miles and Holli played the roles of the former Prom King and Prom Queen, and Holli went all out designing and creating the costumes. While we didn't win anything, the experience was fun and memorable, and no one actually got hurt.</p>"
+                "name": "Mr. and Mrs. Majesty",
+                "text": "<p>Miles's workplace had their Christmas Party organized as a murder mystery at Calico Skies Winery this year. Miles and Holli played the roles of the former Prom King and Prom Queen, and Holli enjoyed designing and creating <a href=\"https://www.flickr.com/photos/holli_joi/23932916642/in/album-72157654691604630/\" target=\"_blank\">our costumes</a>. While we didn't win any prizes, the experience was fun and memorable, and no one actually got hurt. Unfortunately.</p>"
             }
         ]
     }
