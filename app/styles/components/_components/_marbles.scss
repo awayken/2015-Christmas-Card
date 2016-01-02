@@ -32,10 +32,6 @@
     display: inline-block;
 }
 
-.marble + .marble {
-    margin-left: -.2em;
-}
-
 .marble--link {
     background-image: radial-gradient($color-background-light, $color-background);
     border: 2px solid $color-background-light;
