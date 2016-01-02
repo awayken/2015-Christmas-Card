@@ -7,11 +7,13 @@
 .marbles {
     display: block;
     list-style: none;
-    margin: 1em 0;
+    margin: 1em auto;
+    max-width: 100%;
     overflow: hidden;
     padding: .5em 1em;
     position: relative;
     text-align: center;
+    width: 20em;
 }
 
 .marbles::after {
@@ -104,4 +106,48 @@
 
 .marble--sadness::after {
     background-image: radial-gradient($color-sadness-bright, $color-sadness-light);
+}
+
+$spot: 0;
+$total: 3;
+@while $spot <= $total {
+    $xdiff: ($total - $spot) * 200%;
+
+    @keyframes spot#{ $spot } {
+        0% {
+            transform: translateX(0);
+        }
+
+        20% {
+            transform: translateX(0);
+        }
+
+        35% {
+            opacity: 1;
+            transform: translateX(400px);
+        }
+
+        36% {
+            opacity: 0;
+        }
+
+        45% {
+            opacity: 0;
+            transform: translateX(-400px);
+        }
+
+        46% {
+            opacity: 1;
+        }
+
+        60% {
+            transform: none;
+        }
+    }
+
+    .marble--spot#{ $spot } {
+        animation: spot#{ $spot } 10s ease-out ($total - $spot) * 400ms infinite;
+    }
+
+    $spot: $spot + 1;
 }
