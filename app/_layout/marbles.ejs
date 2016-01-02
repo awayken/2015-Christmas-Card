@@ -1,7 +1,7 @@
 <nav>
     <ul class="marbles">
         <% marbles.forEach(function( marble, index ) { %>
-            <li class="marble">
+            <li class="marble marble--spot<%= index %>">
                 <a class="marble--link marble--<%= emotion.toLowerCase() %>" href="#memory<%= index %>" title="<%= marble.name %>">
                     <%= marble.name %>
                 </a>
